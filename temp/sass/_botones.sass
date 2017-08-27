@@ -1,0 +1,78 @@
+// -- BOTONES -- //
+
+$btn-bordes: 40px
+
+.btn-container
+	margin: 10px 0 75px 0
+	padding: 0
+
+.btn
+	font-size: $chica
+	+border-radius($btn-bordes)
+	font-family: $bold
+	&:hover, &:active
+		outline: none
+		box-shadow: none
+	&:focus
+		appearence: none
+		box-shadow: none
+		outline: none
+
+// -- Botón Naranja -- //
+.btn-naranja
+	color: $blanco !important
+	background: $naranja
+	&:hover, &:active
+		background: $naranjaHover
+		color: $blanco
+	&:focus
+		background: $naranja
+		color: $blanco
+
+// -- Botón Gris -- //
+.btn-gris
+	color: $blanco !important
+	background: $gris
+	&:hover, &:active
+		background: $grisHover
+		color: $blanco
+	&:focus
+		background: $gris
+		color: $blanco
+
+// -- Botón del Formulario -- //
+.btn-formu
+	border: 2px solid $colorBtnFormu
+	color: $colorBtnFormu !important
+	background: transparent
+	+border-radius($btn-bordes)
+	font-family: $semiBold
+	font-size: $mediana
+	transition: all ease 0.2s
+	padding: 0px 30px
+
+.btn-formu-active
+	border: 2px solid $blanco
+	color: $blanco !important
+	background: transparent
+	+border-radius($btn-bordes)
+	font-family: $semiBold
+	font-size: $mediana
+	transition: all ease 0.2s
+	padding: 0px 30px
+
+// -- Flecha ir arriba -- //
+.ir-arriba 
+	display: none
+	background-color: transparent
+	cursor: pointer
+	position: fixed
+	bottom: 5px
+	right: 5px
+	background-image: url(../img/flecha.png)
+	background-repeat: no-repeat
+	background-position: center center
+	width: 41px
+	height: 41px
+	border-radius: 5px
+	z-index: 9999 !important
