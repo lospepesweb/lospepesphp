@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/TheSansLight.ttf"); }
+@font-face {
+  font-family: "semiBold";
+  src: url("../fonts/TheSans-6-SemiBold.otf"); }
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/TheSansBold.otf"); }
+body {
+  background-image: url("../img/fondoGris.png");
+  text-align: center;
+  color: #fff;
+}
+h1 {
+  font-family: Bold;
+  font-size: 58px;
+  text-align: center;
+  margin-top: 80px;
+}
+p {
+  font-family: Light;
+  font-size: 22px;
+  margin-left: 20%;
+  text-align: center;
+  width: 60%;
+}
+a {
+  font-family: semiBold;
+  text-decoration: none;
+  color: #e5503f;;
+}
+@media screen and (max-width: 920px){
+  p {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
